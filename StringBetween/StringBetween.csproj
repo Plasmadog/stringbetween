@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>Tony Peguero</Authors>
+    <Company />
+    <Product></Product>
+    <Description>Generate a string that sorts between two other strings</Description>
+    <Copyright>Copyright 2021 Tony Peguero</Copyright>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Plasmadog/stringbetween</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Plasmadog/stringbetween</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Sorting</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
